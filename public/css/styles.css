@@ -1,0 +1,102 @@
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.banner .mainLogo {
+  background: url('../img/cover.png');
+  height: 450px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.banner .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 3rem;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner span {
+  display: block;
+  height: 20px;
+  background: rgb(140, 33, 240);
+}
+
+a img {
+  max-width: 100%;
+  height: auto;
+}
+
+.artistsList {
+  box-sizing: border-box;
+  padding: 10px 30px;
+}
+
+
+.artistsList .artistItem {
+  display: block;
+  height: 300px;
+  background-size: cover;
+  position: relative;
+}
+
+.artistsList .artistItem div {
+  background: rgb(140, 33, 240);
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+
+}
+
+.artistsList h4 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  text-transform: uppercase;
+
+}
+
+header {
+  color: #000;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 5px solid rgb(140, 33, 240);
+}
+
+.artistBio .avatar span {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  background-size: cover !important;
+  padding: 10px;
+  border: 3px solid rgb(140, 33, 240);
+}
+
+.artistBio h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.albumsList:after {
+  clear: both;
+  display: table;
+  content: '';
+}
+
+.albumsList > img {
+  float: left;
+  width: 25%;
+}
+
